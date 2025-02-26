@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Formulario de Libros</title>
+</head>
+<body>
+
+<h2> Registro de Libros</h2>
+
+<form method="post" action="http://localhost:8080/autor">
+    <form id="libroForm">
+        <label for="titulo">Título:</label><br>
+        <input type="text" id="titulo" name="titulo"><br><br>
+
+        <label for="autor">Autor:</label><br>
+        <input type="text" id="autor" name="autor"><br><br>
+
+        <label for="genero">Género:</label><br>
+        <input type="text" id="genero" name="genero"><br><br>
+
+        <label for="isbn">ISBN:</label><br>
+        <input type="text" id="isbn" name="isbn"><br><br>
+
+        <button type="button" onclick="agregarLibro()">Agregar Libro</button>
+    </form>
+
+    <h2>Lista de Libros</h2>
+    <ul id="listaLibros"></ul>
+
+    <script src="script.js"></script
+</form>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+</html>
