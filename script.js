@@ -3,6 +3,7 @@ function agregarLibro() {
     const autor = document.getElementById("autor").value;
     const genero = document.getElementById("genero").value;
     const isbn = document.getElementById("isbn").value;
+
   
     const libro = {
       titulo: titulo,
@@ -10,6 +11,22 @@ function agregarLibro() {
       genero: genero,
       isbn: isbn,
     };
+
+    function editar() {	const titulo = document.getElementById("titulo").value;
+        const autor = document.getElementById("autor").value;
+        const genero = document.getElementById("genero").value;
+        const isbn = document.getElementById("isbn").value;
+    
+      
+        const libro = {
+          titulo: titulo,
+          autor: autor,
+          genero: genero,
+          isbn: isbn,
+        };
+
+    };
+
   
     mostrarLibro(libro);
     limpiarFormulario();
